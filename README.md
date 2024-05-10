@@ -9,12 +9,12 @@ Recrear un videojuego de carritos para diversion del usuario
 ¡Prepárate para la acción en Carritos y demuestra quién es el rey de la carretera!
 
 ### Carpetas
--bin/ - Contiene los ejecutables del proyecto
+- bin/ - Contiene los ejecutables del proyecto
 
--src/ - Contiene el codigo fuente
+- src/ - Contiene el codigo fuente
 
--include/ - Los archivos de cabecera
+- include/ - Los archivos de cabecera
 
--assets/ - Contiene los recuros del proyecto
+- assets/ - Contiene los recuros del proyecto
 
--docs/ - Contiene la documentacion del proyecto
+- docs/ - Contiene la documentacion del proyecto

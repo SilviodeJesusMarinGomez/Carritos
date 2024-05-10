@@ -1,5 +1,3 @@
-// Carrito.hpp
-
 #pragma once
 
 #include <string>
