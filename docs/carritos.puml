@@ -1,0 +1,36 @@
+@startuml carritos 
+class Carrito {
+    + CargarDiseño(path: string): void
+    + Dibujar(): void
+}
+
+class CarritoEnemigo {
+}
+
+class Juego {
+    - Jugador: Jugador
+    - Nivel: Nivel
+    + IniciarJuego(): void
+    + VerificarColisiones(): void
+    + ActualizarEstado(): void
+}
+
+class Jugador {
+    - Carrito: Carrito
+    - Vidas: int
+    - Puntuacion: int
+    + MoverArriba(): void
+    + MoverAbajo(): void
+}
+
+class Nivel {
+    - Enemigos: list<CarritoEnemigo>
+    - Velocidad: int
+    + AgregarEnemigo(enemigo: CarritoEnemigo): void
+    + AumentarVelocidad(): void
+}
+
+Carrito <|-- CarritoEnemigo
+Juego "1" -- "1" Jugador
+Juego "1" -- "1" Nivel
+@enduml
